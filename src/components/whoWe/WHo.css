@@ -1,0 +1,45 @@
+.who{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+}
+.who-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.who-right{
+    flex-basis: 56%;
+}
+.who-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.who h3{
+    font-weight: 600;
+    font-size: 35px;
+    color: darkslateblue;
+}
+.who p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 16px; 
+    margin-top: 15px;
+}
+
+
+/* media query */
+@media (max-width: 800px){
+    .who{
+        flex-direction: column;
+    }
+    .who-left{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .who-right{
+        flex-basis: 100%;
+    }
+}

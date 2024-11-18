@@ -1,0 +1,39 @@
+.team  p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px; 
+    font-weight: 400;
+    padding: 10px;
+}
+
+.team  {
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 10px; /* 20px top/bottom, 10px left/right */
+    color: #333; /* Text color */
+    font-size: 1.2em; /* Font size */
+    display: flex; 
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    flex-direction: column;
+    color: #333;
+    cursor: pointer;
+ 
+} 
+
+.team h3{
+    font-size: 26px;
+    color:darkslateblue;
+    margin: 15px 0;
+    /* max-width: 50px; */
+    justify-content: left;
+    text-align: left;
+}
+.team h4{
+    font-size: 20px;
+    margin: 15px 0;
+    justify-content: left;
+    text-align: left;
+}
